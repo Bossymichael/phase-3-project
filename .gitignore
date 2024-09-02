@@ -1,0 +1,8 @@
+# ignore "C:\Users\user\OneDrive\Documents\Moringa\phase\phase-3-project\WA_Fn-UseC_-Telco-Customer-Churn.csv"
+
+
+#ignore ALL .log files
+*.log
+.ipynb_checkpoints
+WA_Fn-UseC_-Telco-Customer-Churn.csv
+
