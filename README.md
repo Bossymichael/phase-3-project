@@ -53,14 +53,52 @@ I will do train test split where I will split the adta into train an test size w
 
 I will start with the baseline models
 
-## Preprocessing
 
-Train Test Split
+### Conclusion
 
-## Models
-### Logistic Regression Model
+Logistic Regression has the highest ROC AUC score of 0.82.
+Random Forest and Gradient Boosting have the highest Accuracy of 0.76.
+Although Random Forest and Gradient Boosting have higher accuracy than Logistic Regression, their ROC AUC scores are slightly lower (0.81 and 0.80), respectively
 
-### KNN Model
+The Logistic Regression model is the best model according to the ROC AUC score of 0.82, indicating better performance in distinguishing between classes. The Random Forest model is a strong contender based on Accuracy and has a relatively high ROC AUC score, making it a good choice as well. However, if prioritizing the model's ability to differentiate between classes is key, Logistic Regression would be the best choice.
+
+### Recommendations
+
+ Regularly review and optimize pricing strategies to ensure competitiveness. Consider implementing tiered pricing models to cater to different customer segments.
+
+ Use clustering techniques such as K-Means, hierarchical clustering, or DBSCAN to segment customers into distinct groups based on key features like service usage (e.g., data, SMS, and call volume), tenure, payment history, and engagement levels.
+
+ Continuously track customer usage patterns and flag sudden changes (e.g., significant drop in data usage or calls).
+
+ Create a comprehensive FAQ section and knowledge base addressing the most common queries and issues raised by customers.
+
+  - Regularly review and optimize pricing strategies to ensure competitiveness. Consider implementing tiered pricing models to cater to different customer segments.
+ - Use clustering techniques such as K-Means, hierarchical clustering, or DBSCAN to segment customers into distinct groups based on key features like service usage (e.g., data, SMS, and call volume), tenure, payment history, and engagement levels.
+ - Continuously track customer usage patterns and flag sudden changes (e.g., significant drop in data usage or calls).
+
+- Create a comprehensive FAQ section and knowledge base addressing the most common queries and issues raised by customers.
+
+- Continuously monitor model performance and retrain models with new data to ensure they remain accurate and relevant
+
+- Implement technologies like AI-powered chatbots and automated systems to streamline customer interactions.
+
+- Implement technologies like AI-powered chatbots and automated systems to streamline customer interactions.
+
+- Reward loyal customers with exclusive discounts, benefits, and perks.
+
+
+# Nexts Steps
+
+ Conduct Sentiment Analysis on Customer Feedback: Utilize Natural Language Processing (NLP) techniques to analyze customer service interactions, complaints, and feedback. Identify common negative sentiments and pain points that customers express.
+
+ - Develop an automated pipeline for model deployment to allow real-time or batch prediction of churn risk.
+
+ - Implement a system for real-time alerts or dashboards to notify the retention team of high-risk customers based on model predictions
+
+  - Continuously monitor model performance using key metrics and regularly retrain models with new data to ensure they stay accurate and relevant.
+
+
+
 
 
 
